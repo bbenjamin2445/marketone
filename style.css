@@ -1,0 +1,285 @@
+*{margin:0;padding:0}
+body{
+	font-family:Arial !important;
+	background:#FFFFFF;
+	font-size:14px;
+}
+
+.container{
+	max-width:980px !important;
+	margin:10px auto;
+	box-sizing:border-box;
+
+	-webkit-box-shadow:0px 5px 10px rgba(0,0,0, 0.3), 0px -5px 10px rgba(0,0,0, 0.3);
+	-moz-box-shadow:0px 5px 10px rgba(0,0,0, 0.3), 0px -5px 10px rgba(0,0,0, 0.3);
+	box-shadow:0px 5px 10px rgba(0,0,0, 0.3), 0px -5px 10px rgba(0,0,0, 0.3);
+	
+	padding-left:0px;
+	padding-right:0px;
+}
+/*   -----	Custom CSS Starts From Here	-----   */
+
+
+
+/* -----CSS For Header Starts From Here	----- */
+.header{
+	position:relative;
+}
+.header .banner{
+	
+}
+.header .logo{
+	position:absolute;
+	left:0px;
+	top:30px;
+	background:#FFFFFF;
+	padding:10px 40px;
+}
+.header .logo img{
+	
+}
+/* -----CSS For Header Ends Here	----- */
+
+
+
+/* -----CSS For Menu Bar Starts From Here	----- */
+.menu-desktop-tablet{
+	background:#00A2D3;
+	padding:12px 0px;
+	padding-left:30px;
+}
+.menu-desktop-tablet ul{
+	margin-bottom:0px;
+}
+.menu-desktop-tablet ul li{
+	list-style:none;
+	display:inline-block;
+	margin:0px 15px;
+}
+.menu-desktop-tablet ul li:first-child{
+	margin-left:0px;
+}
+.menu-desktop-tablet ul li a{
+	text-decoration:none;
+	font-family: inherit;
+	font-weight:bold;
+	font-size:13px;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+	color:#FFFFFF;
+	text-transform:uppercase;
+}
+.menu-desktop-tablet ul li a:hover{
+	color:rgba(255,255,255, 0.7);
+}
+/* -----CSS For Menu Bar Ends Here	----- */
+
+.menu-mobile{
+	display:none;
+}
+
+/* -----CSS For Welcome Part Starts From Here	----- */
+.middle_content{
+	padding:30px 30px;
+	box-sizing:border-box;
+	overflow:hidden;
+}
+.middle_content .welcome_part{
+	width:560px;
+	float:left;
+	margin-right:30px;
+}
+.middle_content .welcome_part .top{
+	margin-bottom:30px;
+}
+.middle_content .welcome_part .top h1{
+	color:#333333;
+	font-family:inherit;
+	font-size:28px;
+	margin-bottom:15px;
+}
+.middle_content .welcome_part .top p{
+	color:#333333;
+	font-family:inherit;
+	font-size:15px;
+	margin-bottom:0px;
+	line-height:22px;
+	letter-spacing:0.5px;
+}
+.middle_content .welcome_part .top p a{
+	color:#00A2D3;
+	text-decoration:underline;
+}
+
+.middle_content .welcome_part .bottom{
+	overflow:hidden;
+}
+
+.middle_content .welcome_part .bottom .left{
+	width:250px;
+	margin-right:20px;
+	float:left;
+}
+.middle_content .welcome_part .bottom .right{
+	width:250px;
+	float:left;
+}
+
+.middle_content .welcome_part .bottom .image{
+	width:60px;
+	float:left;
+	margin-right:10px;
+}
+.middle_content .welcome_part .bottom .image img{
+	max-width:60px;
+}
+.middle_content .welcome_part .bottom .contents{
+	width:180px;
+	float:left;
+}
+.middle_content .welcome_part .bottom .contents h3{
+	color:#333333;
+	font-family:inherit;
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+.middle_content .welcome_part .bottom .contents p{
+	color:#333333;
+	font-family:inherit;
+	font-size:13px;
+	margin-bottom:5px;
+}
+.middle_content .welcome_part .bottom .contents .clickable_link{
+	
+}
+.middle_content .welcome_part .bottom .contents .clickable_link a{
+	text-decoration:none;
+	color:#00A1D3;
+	font-family:inherit;
+	font-weight:bold;
+	font-size:12px;
+	text-transform:uppercase;
+	background:url(images/cta_arrow.png) no-repeat;
+	background-position:92% 1px;
+	padding-right:20px;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+.middle_content .welcome_part .bottom .contents .clickable_link a:hover{
+	color:#609BBF;
+	background-position:92% 103%;
+}
+/* -----CSS For Welcome Part Ends Here	----- */
+
+
+
+/* -----CSS For Form Starts From Here	----- */
+.middle_content .form_section{
+	width:320px;
+	float:right;
+}
+.middle_content form{
+	
+}
+.middle_content form .form-group{
+	margin-bottom:10px;
+}
+.middle_content form .form-group label{
+	margin-bottom:5px;
+	color:#333333;
+	font-family:inherit;
+	font-size:11px;
+	font-weight:bold;
+}
+.middle_content form .form-group .form-control{
+	background:#FFFFFF;
+	border:1px solid #CCCCCC;
+	border-radius:3px;
+	height:30px;
+	box-sizing:border-box;
+	font-size:13px;
+	color:#333333;
+}
+.middle_content form .contact_us_button{
+	
+}
+.middle_content form .contact_us_button button{
+	color:#FFFFFF;
+	font-family:inherit;
+	font-size:16px;
+	padding:4px 40px;
+	background:#00A2D3;
+}
+
+.invalid-feedback{
+	color:#FE0000;
+	background:#DDDDDD;
+	padding:4px 10px;
+	box-sizing:border-box;
+	border-radius:3px;
+	position:relative;
+}
+.invalid-feedback:before{
+	content:"";
+	position:absolute;
+	background:#DDDDDD;
+	width:8px;
+	height:8px;
+	transform:rotate(45deg);
+	top:-3px;
+	left:15px;
+}
+
+.form-control:focus{
+	border:1px solid #FE0000 !important;
+	box-shadow:none;
+}
+.form-control:focus label{
+	color:red;
+}
+/* -----CSS For Form Ends Here	----- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	background:#00A2D3;
+	padding:12px 0px;
+	padding-left:30px;
+}
+.footer p{
+	color:#FFFFFF;
+	font-family:inherit;
+	font-size:14px;
+	margin-bottom:0px;
+	font-style:italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
